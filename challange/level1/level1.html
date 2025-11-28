@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The White Rabbit Challenge: Level 1</title>
+  <meta name="description" content="Level 1 of The White Rabbit Challenge – solve the riddle, find the password, go deeper.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico" />
+
+  <link rel="stylesheet" href="level1.css" type="text/css">
+</head>
+
+<body>
+  <main class="level-page">
+    <header class="level-header">
+      <h1>Level 1</h1>
+    </header>
+
+    <section class="level1-section">
+      <p>
+        I am born the moment something looks perfect.<br>
+        I grow in silence, smiling like a fading Cheshire grin.<br>
+        Too small to notice,<br>
+        yet able to turn Wonderland upside down.<br>
+        <br>
+        In the end, you blame the clock, the rush, or the madness<br>
+        but I was there from the very start.<br>
+        <br>
+        <em>What am I?</em>
+      </p>
+    </section>
+
+    <section class="password-section">
+      <div class="password-box">
+        <label for="level1-password-input" class="password-label">
+          Answer:
+        </label>
+
+        <form
+          id="level1-password-form"
+          class="password-form"
+          autocomplete="off"
+        >
+          <input
+            id="level1-password-input"
+            type="text"
+            maxlength="25"
+            size="16"
+            autocomplete="off"
+            class="password-input"
+          >
+          <button type="submit" class="password-submit">
+            Confirm
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <div id="level1-error" class="level-error">
+    <div class="level-error-box">
+        <p>Wrong answer!</p>
+    </div>
+    </div>
+
+  </main>
+
+  <script src="./level1.js"></script>
+</body>
+</html>
